@@ -1,0 +1,580 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    
+}
+
+header nav{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    justify-content: space-around;
+    align-items: center;
+    font-size: smaller;
+    padding: 1rem;
+    color: rgb(248, 31, 150);
+}
+
+header nav span{
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin: 0.2rem;
+    font-size: x-small;
+}
+
+a:hover{
+    background-color: palevioletred;
+}
+
+.hero{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 2rem;
+}
+
+.hero img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.hero h3{
+    font-family: cursive;
+    font-size: 0.6rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    font-style: italic;
+}
+
+.hero button{
+    background-color: rgb(207, 26, 86);
+    color: white;
+    text-decoration: none;
+    border: 2px;
+    font-weight: bold;
+    font-size: 0.4rem;
+}
+
+.hero button:hover{
+    background-color: black;
+}
+
+.hero h1{
+    font-size: 2rem;
+}
+
+.hero h1:hover{
+    color: rgb(207, 26, 86);
+}
+
+.New{
+    display: grid;
+    grid-template-columns: 40% 50%;
+    justify-content: space-around;
+    align-items: center;
+    background: radial-gradient(white, pink);
+    padding-bottom: 2rem;
+    
+}
+
+.New img{
+    width: 80%;
+}
+
+.New h3{
+    color: rgb(4, 245, 36);
+    font-size: 2rem;
+    text-decoration: solid;
+}
+
+.New h3:hover{
+    color:rgb(207, 26, 86) ;
+    
+}
+
+.New p{
+    font-size: smaller;
+}
+
+.New strong{
+    font-style: italic;
+    color: rgb(207, 26, 86);
+}
+
+main h2{
+    align-items: center;
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(207, 26, 86);
+    font-size: smaller;
+    margin-top: 1rem;
+}
+
+main h2:hover{
+    color: black;
+}
+.List{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    
+   
+}
+
+.List img{
+    width:50%;
+}
+
+
+.item{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 2rem;
+   
+}
+
+.item img{
+    width: 60px;
+}
+
+.design{
+    text-decoration: none;
+}
+
+.design:hover{
+color:blue;
+text-decoration: none;
+}
+
+.item p{
+    font-size: 0.5rem;
+}
+
+.item h5{
+    font-size: 0.8rem;
+    color: rgb(207, 26, 86);
+}
+
+.About{
+    background-color: rgb(255, 216, 222);
+    text-align: center;
+}
+
+.About p{
+    font-size: 0.5rem;
+}
+
+.About h3{
+    margin-top: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: blue;
+    font-size: 1rem;
+}
+
+
+
+.footer{
+    background-color: rgb(255, 216, 222);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+}
+
+.footer p{
+    font-size: 0.6rem;
+    padding-top: 1rem;
+}
+
+.footer h4{
+    font-size: 0.9rem;
+}
+
+.footer h5{
+    font-size: 0.6rem;
+    padding-top: 1rem;
+}
+
+.footer form{
+    margin-top: 1rem;
+}
+
+
+@media (max-width: 1280px){
+    a{
+        text-decoration: none;
+        color: black;
+        margin: 0.2rem;
+        font-size: 1.5rem;}
+
+        header nav{
+            display: grid;
+            grid-template-columns: 45% 45%;
+            justify-content: space-around;
+            align-items: center;
+            font-size: 2rem;
+            padding: 1rem;
+            color: rgb(248, 31, 150);}
+
+            .hero h3{
+                font-family: cursive;
+                font-size: 2rem;
+                padding-top: 0.2rem;
+                padding-bottom: 0.2rem;
+                
+            }
+
+            .hero button{
+                background-color: rgb(207, 26, 86);
+                color: white;
+                text-decoration: none;
+                border: 2px;
+                font-weight: bold;
+                font-size: 1.2rem;
+            }
+
+            .hero h1{
+                font-size: 4rem;
+            }
+            
+            .New h3{
+                color: rgb(4, 245, 36);
+                font-size: 4rem;
+                text-decoration: solid;
+            }
+            
+            .New p{
+                font-size: 1.5rem;
+            }
+            
+            .New strong{
+                font-style: italic;
+                color: rgb(207, 26, 86);
+                font-size: 2rem;
+            }
+
+            main h2{
+                font-size: 2.5rem;
+            }
+
+            .List img{
+                width:70%;
+            }
+            
+            .item img{
+                width: 60%;
+            }
+            
+            .item p{
+                font-size: 1.5rem;
+            }
+            
+            .item h5{
+                font-size: 2rem;
+                color: rgb(207, 26, 86);
+            }
+
+            .footer p{
+                font-size: 1rem;
+                padding-top: 1rem;
+            }
+            
+            .footer h4{
+                font-size: 1.5rem;
+            }
+            
+            .footer h5{
+                font-size: 1.4rem;
+                padding-top: 1rem;
+            }
+            
+            .About p{
+                font-size: 1.5rem;
+            }
+            
+            .About h3{
+                font-size: 2rem;
+            }
+            .footer{
+                grid-template-columns: 40% 40%;}
+}
+
+
+@media (max-width: 900px){
+    a{
+        text-decoration: none;
+        color: black;
+        margin: 0.2rem;
+        font-size: 1rem;}
+
+        header nav{
+            display: grid;
+            grid-template-columns: 40% 40%;
+            justify-content: space-around;
+            align-items: center;
+            font-size: 2rem;
+            padding: 1rem;}
+            
+            .About p{
+                font-size: 1.2rem;
+            }
+            
+}
+
+@media (max-width: 860px){
+    .hero h3{
+        font-family: cursive;
+        font-size: 1.5rem;
+        padding-top: 0.2rem;
+        padding-bottom: 0.2rem;
+        
+    }
+
+    .hero h1{
+        font-size: 3rem;
+    }
+
+    .New h3{
+        color: rgb(4, 245, 36);
+        font-size: 2.8rem;
+        text-decoration: solid;
+    }
+
+    main h2{
+        font-size: 2rem;
+    }
+
+    .item img{
+        width: 40%;
+    }
+
+    .item p{
+        font-size: 1rem;
+    }
+    
+    .item h5{
+        font-size: 1.4rem;
+        color: rgb(207, 26, 86);
+    }
+}
+
+@media (max-width: 813px){
+    a{
+        text-decoration: none;
+        color: black;
+        margin: 0.2rem;
+        font-size: 0.8rem;}
+
+        .About h3{
+            font-size: 1.5rem;
+        }
+
+        .About p{
+            font-size: 1rem;
+        }
+
+        .footer p{
+            font-size: 1rem;
+            padding-top: 1rem;
+        }
+        
+        .footer h4{
+            font-size: 1.2rem;
+        }
+        
+        .footer h5{
+            font-size: 1.1rem;
+            padding-top: 1rem;
+        }
+
+        header nav{
+            font-size: 1.5rem;
+            padding: 1rem;}
+}
+
+
+@media (max-width: 660px){
+    a{
+        text-decoration: none;
+        color: black;
+        margin: 0.2rem;
+        font-size: 0.7rem;}
+
+        .hero h1{
+            font-size: 2rem;
+        }
+    
+        .hero h3{
+            font-family: cursive;
+            font-size: 1rem;
+           
+        }
+        
+        .hero button{
+            font-size: 1rem;
+        }
+        
+        .New h3{
+            color: rgb(4, 245, 36);
+            font-size: 2.2rem;
+            text-decoration: solid;
+        }
+        .New p{
+            font-size: 1rem;
+        }
+        
+        .New strong{
+            font-style: italic;
+            color: rgb(207, 26, 86);
+            font-size: 1.5rem;
+        }
+
+        main h2{
+            font-size: 1rem;
+        }
+
+        .item p{
+            font-size: 0.7rem;
+        }
+        
+        .item h5{
+            font-size: 1.2rem;
+            color: rgb(207, 26, 86);
+        }
+
+        header nav{
+            font-size: 1rem;
+            padding: 1rem;}
+
+            .footer p{
+                font-size: 0.7rem;
+                padding-top: 1rem;
+            }
+            
+            .footer h4{
+                font-size: 1rem;
+            }
+            
+            .footer h5{
+                font-size: 0.9rem;
+                padding-top: 1rem;
+            }
+}
+
+@media (max-width: 600px){
+    .About p{
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 482px){
+    .hero button{
+        font-size: 0.7rem;
+    }
+    
+    .hero h3{
+        font-family: cursive;
+        font-size: 0.8rem;
+       
+    }  
+
+    .New h3{
+        color: rgb(4, 245, 36);
+        font-size: 2rem;
+        text-decoration: solid;
+    }
+
+    .item p{
+        font-size: 0.5rem;
+    }
+    
+    .item h5{
+        font-size: 1rem;
+        color: rgb(207, 26, 86);
+    }
+
+    .About h3{
+        font-size: 1.2rem;
+    }
+    .footer{
+        background-color: rgb(255, 216, 222);
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 2rem;
+        padding-left: 2rem;
+        padding-bottom: 2rem;
+        padding-right: 1rem;
+    }
+
+    .footer h5{
+        font-size: 0.6rem;
+        padding-top: 1rem;
+    }
+    .New p{
+        font-size: 0.8rem;
+    }
+    
+    .About p{
+        font-size: 0.6rem;
+    }
+    header nav{
+        display: grid;
+        grid-template-columns: 40% 50%;
+    }
+
+    header nav{
+        font-size: 0.7rem;
+        padding: 1rem;}
+
+        a{
+            text-decoration: none;
+            color: black;
+            margin: 0.2rem;
+            font-size: 0.5rem;}
+
+     .New strong{
+      font-style: italic;
+       color: rgb(207, 26, 86);
+       font-size: 1rem;
+            }
+}
+    
+@media (max-width: 393px){
+    .hero h3{
+        font-family: cursive;
+        font-size: 0.6rem;
+       
+    }  
+
+    .hero h1{
+        font-size: 1.8rem;
+    }
+    a{
+       
+        font-size: 0.5rem;}
+
+        header nav{
+            font-size: 0.8rem;
+            padding: 1rem;}
+
+            header nav{
+                display: grid;
+                grid-template-columns: 40% 50%;
+            }
+
+}
